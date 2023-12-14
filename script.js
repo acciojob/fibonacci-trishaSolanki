@@ -4,7 +4,7 @@ function fibonacci(num) {
     }else if(num === 1){
         return 1;
     }else{
-        let feb  [0,1];
+        let feb = [0,1];
     
         for(let i=2; i<=num; i++){
             feb[i] = feb[i-1] + feb[i-2];
